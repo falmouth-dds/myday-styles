@@ -1,0 +1,276 @@
+.tile {
+    background-size: 130%;
+}
+
+.tile__header h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tile.md-theme-5 {
+    background-size: cover;
+}
+
+.tile.md-theme-5 .tile__inner {
+    background-color: rgba(25, 143, 145, .6);
+}
+
+.tile.md-theme-5 h4 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0px 2px #000;
+}
+
+.page--app-collabco-courses .md-app .panel>.btn.pull-right>span:nth-child(2) {
+    display: none;
+}
+
+.page--app-collabco-courses .md-app .panel>.btn.pull-right>span:nth-child(1)::after {
+    content: ' Learning Space'
+}
+
+
+/* Sub pages */
+
+.page--pages .md-content-wrapper__inner a {
+    color: #4ea4ed;
+}
+.page--pages .md-content-wrapper__inner a:hover {
+    text-decoration: underline; 
+}
+
+
+.page--pages-health-wellbeing-useful-links,
+.page--pages {
+    background: #222;
+    color: #fff;
+}
+
+/* .page--pages-health-wellbeing-useful-links .md-content-wrapper__inner ul, */
+.page--pages .md-content-wrapper__inner ul.nostyle,
+.card-list-group,
+.link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .page--pages-health-wellbeing-useful-links .md-content-wrapper__inner .nostyle li, */
+.page--pages .md-content-wrapper__inner .nostyle li,
+.card-list-group li,
+.link-list li {
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+/* .page--pages-health-wellbeing-useful-links .md-content-wrapper__inner li a,
+.page--pages .md-content-wrapper__inner li a, */
+.page--pages .card-list-group a,
+.page--pages .link-list a,
+.page--pages .md-content-wrapper__inner .btn.btn-block {
+    display: block;
+    max-width: 400px;
+    padding: 16px;
+    color: #fff;
+    background: #198f91;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    white-space: normal;
+}
+
+/* .page--pages-health-wellbeing-useful-links .md-content-wrapper__inner li a:hover,
+.page--pages .md-content-wrapper__inner li a:hover, */
+.page--pages .card-list-group a:hover,
+.page--pages .link-list a:hover,
+.page--pages .md-content-wrapper__inner .btn.btn-block:hover {
+    background-color: #46A5A6;
+    transition: background-color .2s;
+    text-decoration: none;
+}
+
+/* .page--pages-health-wellbeing-useful-links .md-content-wrapper__inner li a:after,
+.page--pages .md-content-wrapper__inner li a:after, */
+.page--pages .card-list-group a:after,
+.page--pages .link-list a:after,
+.page--pages .md-content-wrapper__inner .btn.btn-block:after {
+    font-family: FontAwesome;
+    content: "\f101";
+    right: 16px;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page--pages .md-content-wrapper__inner .btn.btn-block {
+    text-align: left;
+    margin: 32px 0;
+}
+
+.page--pages .md-content-wrapper__inner hr {
+    border-top-color: #111;
+}
+
+.page--pages .md-content-wrapper__inner .intro {
+    font-size: 18px;
+}
+
+.page--pages .md-content-wrapper__inner .card-list-group li a {
+    margin: 0;
+}
+
+.card-list-group li p {
+    padding: 32px 16px 16px;
+    background: #157173;
+    margin: -16px 16px 24px;
+    max-width: 430px;
+}
+
+.md-header__section a[translate-once="dashboard.header.PERSONALIZE"] {
+    display: none !important;
+}
+
+.tile.md-theme-8,
+.tile.md-theme-11 {
+    background-color: #fcf0cb;
+}
+
+.md-theme-2 .tile__content {
+    color: #000;
+}
+
+.md-theme-2 .tile__content {
+    background: rgba(247, 213, 101, 0.85);
+}
+
+.md-theme-2 .tile__content h4 {
+    font-weight: 700;
+    color: #000;
+}
+
+.md-theme-2 .tile__content h4+p {
+    margin-top: -2px;
+}
+
+.tile.md-theme-11 {
+    background-size: 90%;
+}
+
+@media only screen and (max-width: 767px) {
+    .tile.md-theme-8 {
+        background-size: 65%;
+    }
+
+    .tile.md-theme-2,
+    .tile.md-theme-3,
+    .tile.md-theme-4,
+    .tile.md-theme-11 {
+        background-color: #fcf0cb;
+    }
+
+    .md-theme-2 .tile__content {
+        background-color: rgba(252, 240, 203, 0.9);
+    }
+
+    .md-theme-2 .tile__content h4+p {
+        margin-top: -6px;
+    }
+}
+
+.md-header .md-header__toggle {
+    display: none;
+}
+
+.md-header__side--left {
+    padding-left: 40px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 39.11"%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23303030;%7D.cls-1,.cls-2%7Bfill-rule:evenodd;%7D.cls-2%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 1-f-logo%3C/title%3E%3Cg id="Layer_2" data-name="Layer 2"%3E%3Cg id="Layer_1-2" data-name="Layer 1"%3E%3Cpolygon class="cls-1" points="0 39.11 40 39.11 40 0 0 0 0 39.11"/%3E%3Cpolygon class="cls-2" points="10.67 6.22 10.67 32.89 16.48 32.89 16.48 22.42 24.25 22.42 26.21 17.1 16.48 17.1 16.48 11.54 28.26 11.54 30.22 6.22 10.67 6.22"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: center left;
+}
+
+@media only screen and (min-width: 992px) {
+    .md-header__side--left {
+        padding-left: 0;
+        background: none;
+    }
+}
+
+nav.breadcrumbs a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+nav.breadcrumbs a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page--pages-fresher .md-content h2,
+.page--pages-refreshers .md-content h2 {
+    display: inline-block;
+    border-bottom: 5px solid #198f91;
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+}
+
+.page--pages .checklist li {
+    position: relative;
+    padding: 4px 0 4px 26px;
+}
+
+.page--pages .checklist li:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    color: #f3ba00;
+}
+
+.md-content>ui-view:only-child {
+    height: calc(100vh - 50px);
+    flex: 1 1 auto;
+}
+
+.md-content>ui-view:only-child> :only-child {
+    height: 100%;
+}
+
+.tile.md-theme-5 h4 {
+    padding-right: 30px;
+    position: relative;
+}
+
+.tile.md-theme-5 h4:after {
+    position: absolute;
+    content: "\f138";
+    font-family: FontAwesome;
+    margin: 1px 0 0 10px;
+}
+
+@media only screen and (max-width: 360px) {
+    .tile.md-theme-5 h4 {
+        font-size: 1.275rem;
+    }
+}
+
+a.inline-link,
+a.inline-link:hover,
+a.inline-link:focus {
+    color: #4ea4ed;
+}
+
+a.inline-link:hover,
+a.inline-link:focus {
+    text-decoration: underline;
+}
+
+.page--pages-app-feedback-form ui-view#main>.flex-container {
+    height: calc(100vh - 50px);
+    min-height: 300px;
+}
